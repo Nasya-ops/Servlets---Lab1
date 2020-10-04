@@ -30,16 +30,16 @@ public class Stud1 extends HttpServlet {
     String[] courses = request.getParameterValues("courses");
      
     try {
-        writer.println("<p>Ім'я: " + name + "</p>");
-        writer.println("<p>Вік: " + age + "</p>");
-        writer.println("<p>Стать: " + gender + "</p>");
-        writer.println("<p>Група: " + country + "</p>");
-        writer.println("<h4>Курси</h4>");
+        writer.println("<p>Р†Рј'СЏ: " + name + "</p>");
+        writer.println("<p>Р’С–Рє: " + age + "</p>");
+        writer.println("<p>РЎС‚Р°С‚СЊ: " + gender + "</p>");
+        writer.println("<p>Р“СЂСѓРїР°: " + country + "</p>");
+        writer.println("<h4>РљСѓСЂСЃРё</h4>");
         for(String course: courses)
             writer.println("<li>" + course + "</li>");
     } finally {
         writer.close();  
-    }
+    }}
  protected void doGet(HttpServletRequest request, HttpServletResponse response) 
             throws ServletException, IOException {
     String path = "/forwardSer";

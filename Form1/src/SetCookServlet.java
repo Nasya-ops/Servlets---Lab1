@@ -22,7 +22,7 @@ public class SetCookServlet extends HttpServlet {
 	        PrintWriter out = response.getWriter();
 	        try {
 	            response.addCookie(new Cookie("user", "Vlad"));
-	            out.println("<h2>Кукі встановлен<h2>");
+	            out.println("<h2>РљСѓРєС– РІСЃС‚Р°РЅРѕРІР»РµРЅРѕ!<h2>");
 	        }
 	        finally {
 	            out.close();

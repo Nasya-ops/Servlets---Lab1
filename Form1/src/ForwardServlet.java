@@ -22,7 +22,7 @@ public class ForwardServlet extends HttpServlet {
         String id = request.getParameter("id");
          
         try {
-            writer.println("<h2>Ïðèâ³ò  â³ä forward() </h2>");
+            writer.println("<h2>ÐŸÑ€Ð¸Ð²Ñ–Ñ‚ Ð²Ñ–Ð´ forward() </h2>");
         } finally {
             writer.close();  
         }

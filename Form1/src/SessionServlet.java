@@ -29,10 +29,10 @@ public class SessionServlet extends HttpServlet {
 	            if(name == null) {
 	                
 	                session.setAttribute("name", "Vlad Vladovich");
-	                out.println("Дані сеансу установлені!");
+	                out.println("Р”Р°РЅС– СЃРµСЃС–С— РІСЃС‚Р°РЅРѕРІР»РµРЅС–!");
 	            }
 	            else {
-	                out.println("Ім'я: " + name);
+	                out.println("Р†Рј'СЏ" + name);
 	               
 	                session.removeAttribute("name");
 	            }

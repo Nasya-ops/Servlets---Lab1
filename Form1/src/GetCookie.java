@@ -32,7 +32,7 @@ public class GetCookie extends HttpServlet {
         }
         PrintWriter out = response.getWriter();
         try {
-            out.println("≤Ï'ˇ: " + cookie.getValue());
+            out.println("–Ü–º'—è: " + cookie.getValue());
         }
         finally {
             out.close();
