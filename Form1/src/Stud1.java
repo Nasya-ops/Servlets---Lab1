@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/Student")
 public class Stud1 extends HttpServlet {
 	
-	/*protected void doPost(HttpServletRequest request, HttpServletResponse response) 
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) 
             throws ServletException, IOException {
           
 	response.setContentType("text/html;charset=windows-1251");
@@ -39,7 +39,7 @@ public class Stud1 extends HttpServlet {
             writer.println("<li>" + course + "</li>");
     } finally {
         writer.close();  
-    }*/
+    }
  protected void doGet(HttpServletRequest request, HttpServletResponse response) 
             throws ServletException, IOException {
     String path = "/forwardSer";
